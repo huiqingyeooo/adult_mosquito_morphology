@@ -97,6 +97,7 @@ for (taxa in txid.list){
 
 # Note: errors when extracting clusters 1-3 (cluster id 0-2) can be safely ignored.
 # e.g., ERROR : [NA] not in records albuginosus - refers to groups that only have one cluster
+# Modifying the code (phylotaR_fork) ensures that taxa and sequences forming one cluster are still retained.
 # e.g., ERROR : 'data' must be of a vector type, was 'NULL' cancraedes - refers to groups where the txid was specified, but no sequences were available in genbank
 
 # Obtain best fasta sequences per species for cluster 2
