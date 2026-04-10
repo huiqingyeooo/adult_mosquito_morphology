@@ -1,4 +1,4 @@
-# This script takes the maximum likelihood from Soghigian et al 2017 (12862_2017_1092_MOESM14_ESM.nwk)
+# This script uses the maximum likelihood tree from Soghigian et al 2017 (12862_2017_1092_MOESM14_ESM.nwk)
 # Collapses nodes with support < 95%
 # The treefile is exported to Treeviewer to collapse species in each genus/subgenus into polytomies
 # The updated treefile is then imported back in R and additional species represented Genbank and in the Soghigian et al 2023 phylogeny are added.
