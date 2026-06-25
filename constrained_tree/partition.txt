@@ -1,0 +1,18 @@
+#nexus
+begin sets;
+    charset part1 = concatenated.fasta: 1-964;
+    charset part2 = concatenated.fasta: 965-1970;
+    charset part3-1 = concatenated.fasta: 1971-2684\3;
+    charset part3-2 = concatenated.fasta: 1972-2684\3;
+    charset part3-3 = concatenated.fasta: 1973-2684\3;
+    charset part4-1 = concatenated.fasta: 2685-4226\3;
+    charset part4-2 = concatenated.fasta: 2686-4226\3;
+    charset part4-3 = concatenated.fasta: 2687-4226\3;
+    charset part5-1 = concatenated.fasta: 4227-4923\3;
+    charset part5-2 = concatenated.fasta: 4228-4923\3;
+    charset part5-3 = concatenated.fasta: 4229-4923\3;
+    charset part6-1 = concatenated.fasta: 4924-5625\3;
+    charset part6-2 = concatenated.fasta: 4925-5625\3;
+    charset part6-3 = concatenated.fasta: 4926-5625\3;
+    charset part7 = concatenated.fasta: 5626-5965;
+    
